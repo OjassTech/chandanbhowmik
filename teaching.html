@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teaching | Dr. Chandan Bhowmik</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <header>
+        <div class="logo">Dr. Chandan Bhowmik</div>
+        <nav>
+            <ul id="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="research.html">Research</a></li>
+                <li><a href="teaching.html" class="active">Teaching</a></li>
+                <li><a href="experience.html">Experience</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <button id="dark-mode-toggle"><i class="fas fa-moon"></i></button>
+    </header>
+
+    <!-- Teaching Section -->
+    <section class="teaching">
+        <h1>Teaching Portfolio</h1>
+        <p>Below are some of the courses I have taught along with lecture materials.</p>
+
+        <div class="search-container">
+            <input type="text" id="search-course" placeholder="Search courses..." onkeyup="searchCourses()">
+        </div>
+
+        <div class="course-list" id="course-list">
+            <div class="course-item">
+                <img src="assets/images/calculus.jpg" alt="Calculus">
+                <h2>Calculus</h2>
+                <p>A comprehensive course on limits, derivatives, and integrals.</p>
+                <a href="assets/lecture-notes/calculus.pdf" class="btn" target="_blank">Download Notes</a>
+            </div>
+
+            <div class="course-item">
+                <img src="assets/images/algebra.jpg" alt="Algebra">
+                <h2>Linear Algebra</h2>
+                <p>Exploring matrices, vector spaces, and eigenvalues.</p>
+                <a href="assets/lecture-notes/algebra.pdf" class="btn" target="_blank">Download Notes</a>
+            </div>
+
+            <div class="course-item">
+                <img src="assets/images/probability.jpg" alt="Probability">
+                <h2>Probability & Statistics</h2>
+                <p>Understanding probability theory and statistical analysis.</p>
+                <a href="assets/lecture-notes/probability.pdf" class="btn" target="_blank">Download Notes</a>
+            </div>
+
+            <div class="course-item">
+                <img src="assets/images/differential.jpg" alt="Differential Equations">
+                <h2>Differential Equations</h2>
+                <p>Solving ordinary and partial differential equations.</p>
+                <a href="assets/lecture-notes/differential.pdf" class="btn" target="_blank">Download Notes</a>
+            </div>
+
+            <!-- More courses can be added here -->
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Dr. Chandan Bhowmik | All Rights Reserved</p>
+    </footer>
+
+</body>
+</html>
